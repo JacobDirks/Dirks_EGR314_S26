@@ -825,7 +825,7 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>For this project I'm focusing on the drive system to ensure the overall submarine can move.  </p>
 <table>
 <thead>
 <tr>
@@ -837,13 +837,13 @@
 </thead>
 <tbody>
 <tr>
-<td>Surface mounted, 3.3V switching power regulatore</td>
+<td>Surface mounted, 3.3V switching power regulator</td>
 <td>3.2 Volts</td>
 <td>3.3 Volts</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Surface mounted microcontroller</td>
+<td>Surface mounted micro-controller</td>
 <td>1 PIC or ESP</td>
 <td>8-bit PIC</td>
 <td style="text-align: center;">No</td>
@@ -855,13 +855,34 @@
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td>Motor driver for control of direction and speed</td>
+<td>H-bridge circuit for at least 3 DC Motors</td>
+<td>PWM or more efficient circuit for at least 3 DC Motors</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Motor for controlled movement</td>
+<td>2 side mounted DC motors and one rear mounted DC motor</td>
+<td>DC Motors with axial control for finessed control</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Shared Power rail</td>
+<td>6 volts</td>
+<td>12 volts</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Motors need to be able to move the robot and keep it afloat.</td>
+<td>0.5 mph</td>
+<td>1.5 mph</td>
+<td style="text-align: center;">No</td>
 </tr>
 </tbody>
 </table>
+<!--
+|*Rest are items your modules needs to support the task you are covering for the team's device.* | --- | --- | **NO** |
+-->
 
 
 
