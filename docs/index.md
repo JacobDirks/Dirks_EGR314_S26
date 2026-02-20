@@ -20,14 +20,16 @@ for<br>
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://egr314-s-2026-308.github.io/)
+* This project is to create full robotic system that can work either as an attachment to a larger robot or as a standalone robot. In this case my team is working to build a submarine that will be able to gather temperature data and light levels in a given area. In order to access the full team's report please access this link: [linked team report.](https://egr314-s-2026-308.github.io/)
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
+* My subsystem is in charge of the drive system for the submarine and using SPI protocol for communication to parts as I use UART for inter controller communication.
+* ["Block Diagram"](https://jacobdirks.github.io/Dirks_EGR314_S26/02-Block-Diagram/Block-Diagram/)
+* ["Component Selection"](https://jacobdirks.github.io/Dirks_EGR314_S26/03-Component-Selection/Component-Selection/)
+* ["Schematic"](https://jacobdirks.github.io/Dirks_EGR314_S26/05-Schematic/schematic/)
+<!--
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
 
 >Continue for all the remaining/missing sections.
+ -->
