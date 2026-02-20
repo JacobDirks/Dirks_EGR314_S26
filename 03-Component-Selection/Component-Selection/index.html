@@ -751,8 +751,6 @@
       
         
       
-        
-      
     
     
       
@@ -884,6 +882,8 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
 <p>I will choose <a href="https://www.digikey.com/en/products/detail/nmb-technologies-corporation/PAN14EE12AA1/2417070">"2. Brushed DC Motor Standard 11605 RPM 5VDC"</a> for this project. This motor adds the least amount of weight which is better for watercraft. Secondarily it operates within the motor driver to ensure successful electrical manipulation. This motor also ensures an easier way to mount the motor which helps prevent catastrophic failure during operations.</p>
 <p><strong>Chosen Actuator Driver</strong>:</p>
 <p>I will choose option <a href="https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542">"1. IC HALF BRIDGE DRIVER 6A 12DSO</a> for this project. Due to the knowledge built in the labs and the ability to daisy chain while keeping prices low this option becomes ideal. Furthermore, we are able to meet project requirements with one and if needed bypass it for the other two motors. Creating a backup that might be particularly necessary during a quick project sprint.</p>
+<p><strong>Chosen RC Servo (support)</strong>:
+I will choose option <a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/4326/10419470">"1. SERVOMOTOR RC 3-6V W/ 3-PIN JST image"</a> for this project. Due to the power budget and working to keep expenses low to meet project requirements this rc servo helps provide added functionality at the lowest expense metric to the project. It will act as rotation agent for the side profile DC motors.</p>
 <h3 id="power-management">Power Management</h3>
 <p><strong>Chosen Voltage Regulator 3.3V Line</strong>:</p>
 <p>I will choose option <a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426">"4. IC REG BUCK 3.3V 2A TSOT23-6"</a> for this project. It offers channels that I can use to successfully to get the 3.3v line powered with some extra current to allow for additional features like RC Servos. This will in turn help the project respond in more intuitive ways while providing a decent part with a reduced budget requirement. Furthermore, it does meet project requirements.</p>
@@ -1270,6 +1270,63 @@ I will choose option <a href="https://www.digikey.com/en/products/detail/texas-i
 <tr>
 <td>Can be synced with other lines through a clock</td>
 <td>Typical application diagram is busy</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>RC Servo</strong></p>
+<ol>
+<li>
+<p>SERVOMOTOR RC 3-6V W/ 3-PIN JST
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Images/4326.png" data-desc-position="bottom"><img alt="SERVOMOTOR RC 3-6V W/ 3-PIN JST image" src="../resources/Images/4326.png"></a></p>
+<ul>
+<li>$5.95/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/4326/10419470">Digikey for Servomotor 4326</a></li>
+<li><a href="../resources/pdf/4326_Web.pdf">Datasheet for Servomotor 4326</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Specs place it inside both power lines</td>
+<td>Slightly more expensive part</td>
+</tr>
+<tr>
+<td>Adds the additional functionality</td>
+<td>Limited information in the datasheet</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>SERVOMOTOR RC 4.8V (SER0006)
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Images/Ser0006.png" data-desc-position="bottom"><img alt="SER 0006 image" src="../resources/Images/Ser0006.png"></a></p>
+<ul>
+<li>$3.62/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/dfrobot/SER0006/7597224">Digikey for ser0006 Servomotor</a></li>
+<li><a href="../resources/pdf/Ser0006.pdf">Datasheet for ser0006 Servomotor</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adds the additional functionality</td>
+<td>Specs only allow for one power line in my schematic</td>
+</tr>
+<tr>
+<td></td>
+<td>Current would over pull current allotments</td>
 </tr>
 </tbody>
 </table>
