@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Jacob Dirks Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Rugged Surveyor</font><br>
 for<br>
 <font size= "5"> Team 308 </font><br>
 
@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-* **This needs to be updated so that a reader gets an idea of the purpose of this datasheet.**
+* This datasheet is to help define the drive system for the Rugged Surveyor. This system is crucial to the submarine to be able to go underwater and gather data regarding environmental changes specifically through a photo-resistor for light sensing and a temperature sensor. The goal of the drive train is to allow the robot to travel: forward, reverse, and their diagonals as well as turn left or right. This will be accomplished through 3 DC motors and 2 RC servo motors. As for the goal of the overall project, we want to protect human lives and make the process of exploring new environments less dangerous.
 
 ### Project Summary
 
