@@ -22,6 +22,9 @@ I will choose ["2. Brushed DC Motor Standard 11605 RPM 5VDC"](https://www.digike
 
 I will choose option ["1. IC HALF BRIDGE DRIVER 6A 12DSO](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542) for this project. Due to the knowledge built in the labs and the ability to daisy chain while keeping prices low this option becomes ideal. Furthermore, we are able to meet project requirements with one and if needed bypass it for the other two motors. Creating a backup that might be particularly necessary during a quick project sprint.
 
+**Chosen RC Servo (support)**:
+I will choose option ["1. SERVOMOTOR RC 3-6V W/ 3-PIN JST image"](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4326/10419470) for this project. Due to the power budget and working to keep expenses low to meet project requirements this rc servo helps provide added functionality at the lowest expense metric to the project. It will act as rotation agent for the side profile DC motors.
+
 ### Power Management
 
 **Chosen Voltage Regulator 3.3V Line**:
@@ -193,6 +196,32 @@ I will choose option ["5. IC REG BUCK ADJ 2.5A 20HTSSOP"](https://www.digikey.co
     | Allows for a 5v line                      | Lots of seemingly extra pins                                     |
     | Tolerance allows for 3.3v line            | Medium to high expensive ratio for this grouping                 |
     | Can be synced with other lines through a clock | Typical application diagram is busy                         |
+
+**RC Servo**
+
+1. SERVOMOTOR RC 3-6V W/ 3-PIN JST
+    ![SERVOMOTOR RC 3-6V W/ 3-PIN JST image](resources/Images/4326.png)
+
+    * $5.95/each
+    * [Digikey for Servomotor 4326](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4326/10419470)
+    * [Datasheet for Servomotor 4326](resources/pdf/4326_Web.pdf)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Specs place it inside both power lines    | Slightly more expensive part                                     |
+    | Adds the additional functionality         | Limited information in the datasheet                             |
+
+2. SERVOMOTOR RC 4.8V (SER0006)
+    ![SER 0006 image](resources/Images/Ser0006.png)
+
+    * $3.62/each
+    * [Digikey for ser0006 Servomotor](https://www.digikey.com/en/products/detail/dfrobot/SER0006/7597224)
+    * [Datasheet for ser0006 Servomotor](resources/pdf/Ser0006.pdf)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Adds the additional functionality         | Specs only allow for one power line in my schematic              |
+    |                                           | Current would over pull current allotments                       |
 
 <!-- Not putting the RC servo due it not meeting project requirements but it will be in the power budget. 
 https://www.digikey.com/en/products/detail/adafruit-industries-llc/4326/10419470
