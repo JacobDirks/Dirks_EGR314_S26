@@ -8186,8 +8186,8 @@
 		(uuid "2e8ef6d4-3a91-4630-8e3b-e5c0753ff531")
 	)
 	(no_connect
-		(at 259.08 26.67)
-		(uuid "4922fa29-7433-42c1-89ed-590f28f7f548")
+		(at 259.08 29.21)
+		(uuid "2ee18dee-68ca-41c7-8e93-7bd9926eb0c6")
 	)
 	(no_connect
 		(at 33.02 64.77)
@@ -8242,6 +8242,10 @@
 		(uuid "ac86b304-2d55-4664-9fa3-878978b325eb")
 	)
 	(no_connect
+		(at 259.08 26.67)
+		(uuid "b4507b3a-3e56-4c50-b0de-614f8fb50404")
+	)
+	(no_connect
 		(at 175.26 53.34)
 		(uuid "b938a673-cd23-4d11-8377-a7b2095bbde8")
 	)
@@ -8250,12 +8254,16 @@
 		(uuid "c542d36b-6f27-4576-8c74-bb5f633e3c08")
 	)
 	(no_connect
-		(at 246.38 49.53)
+		(at 246.38 40.64)
 		(uuid "c9635148-4b4e-4511-bf48-2f10a3c22a0e")
 	)
 	(no_connect
 		(at 172.72 27.94)
 		(uuid "ca7e94e7-651d-48c8-8a17-1ea250756c77")
+	)
+	(no_connect
+		(at 259.08 24.13)
+		(uuid "ced5eac5-b83a-4679-8828-cbc9c9ab7c98")
 	)
 	(no_connect
 		(at 125.73 40.64)
@@ -8272,10 +8280,6 @@
 	(no_connect
 		(at 138.43 59.69)
 		(uuid "eca953ba-c535-451e-a205-206a6969f515")
-	)
-	(no_connect
-		(at 259.08 24.13)
-		(uuid "f51ba5b5-1ab7-42b7-ba0e-b71985c551d6")
 	)
 	(no_connect
 		(at 172.72 25.4)
@@ -8332,16 +8336,6 @@
 			(type default)
 		)
 		(uuid "01b40f82-894f-4a8a-8c21-a59769d4444a")
-	)
-	(wire
-		(pts
-			(xy 259.08 50.8) (xy 256.54 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03490690-770c-4b6f-823b-6c9ae881e441")
 	)
 	(wire
 		(pts
@@ -9865,7 +9859,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 29.21) (xy 243.84 49.53)
+			(xy 243.84 21.59) (xy 243.84 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10175,6 +10169,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 50.8) (xy 246.38 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912defa2-4e16-4c6e-9b42-3b571aff8c21")
+	)
+	(wire
+		(pts
 			(xy 74.93 35.56) (xy 76.2 35.56)
 		)
 		(stroke
@@ -10182,16 +10186,6 @@
 			(type default)
 		)
 		(uuid "912eee08-4b21-4b13-933a-6e89d0ccc802")
-	)
-	(wire
-		(pts
-			(xy 259.08 21.59) (xy 256.54 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a5f3b0-dcd6-4945-9b6f-72398f2c202e")
 	)
 	(wire
 		(pts
@@ -10845,7 +10839,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 29.21) (xy 259.08 29.21)
+			(xy 243.84 21.59) (xy 259.08 21.59)
 		)
 		(stroke
 			(width 0)
@@ -11335,7 +11329,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 58.42) (xy 259.08 58.42)
+			(xy 246.38 50.8) (xy 259.08 50.8)
 		)
 		(stroke
 			(width 0)
@@ -11744,7 +11738,7 @@
 		(uuid "fff2f50d-7055-4106-8001-1e71670559e4")
 	)
 	(label "UartOut"
-		(at 251.46 58.42 0)
+		(at 250.19 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11964,7 +11958,7 @@
 		(uuid "aa65ba14-eea6-45bf-9b43-37f7dcc67c56")
 	)
 	(label "UartIn"
-		(at 246.38 29.21 0)
+		(at 246.38 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12167,7 +12161,7 @@
 		(dnp no)
 		(uuid "0d7863d1-8623-447f-9248-0a68d7da6e3b")
 		(property "Reference" "TP27"
-			(at 254.762 19.558 0)
+			(at 256.54 17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20875,7 +20869,7 @@
 		(dnp no)
 		(uuid "c71f7f48-2522-42d3-80cc-004615d1b1b5")
 		(property "Reference" "TP31"
-			(at 254.762 48.768 0)
+			(at 257.556 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20927,73 +20921,6 @@
 			(project "Dirks_IndividualSubsystem"
 				(path "/b9dc885c-c6d6-4e3b-ba8a-e6588a4501d6"
 					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 256.54 21.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8ab1587-063b-405d-813f-0fe387de6810")
-		(property "Reference" "TP28"
-			(at 254.762 22.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 255.27 20.3201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 251.46 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 256.54 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78085008-e283-4fbf-81ef-06cfc5070c99")
-		)
-		(instances
-			(project "Dirks_IndividualSubsystem"
-				(path "/b9dc885c-c6d6-4e3b-ba8a-e6588a4501d6"
-					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -22048,7 +21975,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_AKA")
-		(at 246.38 54.61 90)
+		(at 246.38 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22056,7 +21983,7 @@
 		(dnp no)
 		(uuid "e0da5eba-f371-43cd-b3fd-93bf1f22d214")
 		(property "Reference" "D6"
-			(at 244.094 55.626 0)
+			(at 244.094 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22064,7 +21991,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 249.174 52.832 0)
+			(at 249.174 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22072,7 +21999,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-			(at 246.38 54.61 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22081,7 +22008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 54.61 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22090,7 +22017,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, anode on pins 1 and 3"
-			(at 246.38 54.61 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22099,7 +22026,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 246.38 54.61 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22108,7 +22035,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 54.61 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22688,73 +22615,6 @@
 			(project ""
 				(path "/b9dc885c-c6d6-4e3b-ba8a-e6588a4501d6"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 256.54 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea01dc3f-5e36-403e-8243-c68540a9d8ba")
-		(property "Reference" "TP32"
-			(at 254.762 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 255.27 49.5301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 251.46 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 256.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "385e7946-2af2-4915-8818-0b4e87670430")
-		)
-		(instances
-			(project "Dirks_IndividualSubsystem"
-				(path "/b9dc885c-c6d6-4e3b-ba8a-e6588a4501d6"
-					(reference "TP32")
 					(unit 1)
 				)
 			)
