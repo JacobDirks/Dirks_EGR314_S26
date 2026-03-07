@@ -7,7 +7,7 @@ title: Module's PCB
 This pcb is designed to not only match the schematic but also support the team's movement requirements.
 
 ![schematic](DirksPCB.png){style width:"350" height:"300;"}
-**Figure #1:** Showing a my pcb.
+**Figure #1:** Showing a screenshot as rendered through Kicad of my pcb.
 
 ## Resouces
 

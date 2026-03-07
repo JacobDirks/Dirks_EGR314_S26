@@ -12,8 +12,10 @@ For this project we had a purchasing budget of $60 for various parts, but this d
 ## Bill of Materials
 
 ![](DirksBOM.png){style width: "2000"}
-**Figure #1:** Bill of Materials as a screenshot.
+**Figure #1:** Bill of Materials left half as a screenshot.
 
+![](DirksBOM1.png){style width: "2000"}
+**Figure #2:** Bill of Materials right half as a screenshot.
 ## Resources
 
-The Bill of Material as a PDF download is available [*here*](DirksBOM.pdf).
+The Bill of Material as a PDF download is available [*here*](DirksBOM.pdf) or as an [*Excel spreadsheet*](DirksBOM.xlsx).

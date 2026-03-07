@@ -28,6 +28,8 @@ for<br>
 * ["Block Diagram"](https://jacobdirks.github.io/Dirks_EGR314_S26/02-Block-Diagram/Block-Diagram/)
 * ["Component Selection"](https://jacobdirks.github.io/Dirks_EGR314_S26/03-Component-Selection/Component-Selection/)
 * ["Schematic"](https://jacobdirks.github.io/Dirks_EGR314_S26/05-Schematic/schematic/)
+* ["PCB"](https://jacobdirks.github.io/Dirks_EGR314_S26/06-PCB/pcb/)
+* ["BOM"](https://jacobdirks.github.io/Dirks_EGR314_S26/04-BOM/BOM/)
 <!--
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
 
