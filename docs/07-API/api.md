@@ -47,23 +47,25 @@ Implement a message sender that
 
 **Message Type 1 -- Motor Speed Set Message**
 
-|               |    Byte 1    |      Byte 2      |  Byte 3  |    Byte 4   |     Byte 5     |
-|  :----------: | :----------: |   :----------:   | :----------: | :----------: | :----------: |
-| Variable Name | message_type | subsystem_Number | motor_Id | motor_Speed | motor_Direction|
-| Variable Type |    uint8_t   |     uint8_t      |  uint8_t |   int8_t    |     int8_t     |
-|   Min Value   |      1       |       4          |    1     |     0       |        0       |
-|   Max Value   |      1       |       4          |    2     |    255      |        1       |
-|    Example    |      1       |       4          |    1     |    100      |        0       |
+|               |    Byte 1    |      Byte 2      |  Byte 3  |    Byte 4   |     Byte 5     |   Byte 6     |
+|  :----------: | :----------: |   :----------:   | :----------: | :----------: | :----------: | :----------: |
+| Variable Name | message_type | subsystem_Number | motor_Id | Upper motor_Speed |  Lower Motor Speed | motor_Direction|
+| Variable Type |    uint8_t   |     uint8_t      |  uint8_t |   int8_t    |     int8_t     |       int8_t |
+|   Min Value   |      1       |       4          |    1     |     0       |        0       |            0 |
+|   Max Value   |      1       |       4          |    2     |    15       |        15      |            1 |
+|    Example    |      1       |       4          |    1     |    4        |        4       |            1 |
 
 **Message Type 12 -- Request Subsystem Status**
 
 <!-- Not sure what else should be here-->
-|               |     Byte 1    |      Byte 2      |
-| Variable Name |  message_type | subsystem_Number |
-| Variable Type |     uint8_t   |     uint8_t      |
-|   Min Value   |      12       |       4          |
-|   Max Value   |      12       |       4          |
-|    Example    |      12       |       4          |
+
+|   Column name |     Byte 1    |      Byte 2      | Byte 3 |
+| :----------: | :----------: | :----------: | :----------: |
+| Variable Name |  message_type | subsystem_Number |  code  |
+| Variable Type |     uint8_t   |     uint8_t      | uint8_t |
+|   Min Value   |      12       |       4          |  0     |
+|   Max Value   |      12       |       4          |  15    |
+|    Example    |      12       |       4          |  3     |
 
 <!--
  Messages I send
@@ -77,15 +79,15 @@ Implement a message sender that
 
 **Message Type 2 - Alert Control Unit of Motor Information**
 
-|               |    Byte 1    |      Byte 2      |  Byte 3  |    Byte 4   |     Byte 5     |
-| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| Variable Name | message_type | subsystem_Number | motor_Id | motor_Speed | motor_Direction|
-| Variable Type |    uint8_t   |     uint8_t      |  uint8_t |   int8_t    |     int8_t     |
-|   Min Value   |      2       |       2          |    1     |     0       |        0       |
-|   Max Value   |      2       |       2          |    2     |    255      |        1       |
-|    Example    |      2       |       2          |    1     |    100      |        0       |
+|               |    Byte 1    |      Byte 2      |  Byte 3  |    Byte 4   |     Byte 5     | Byte 6 |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| Variable Name | message_type | subsystem_Number | motor_Id | Upper motor_Speed |  Lower Motor Speed | motor_Direction|
+| Variable Type |    uint8_t   |     uint8_t      |  uint8_t |   int8_t    |     int8_t     |       int 8_t  |
+|   Min Value   |      2       |       2          |    1     |     0       |        0       |         0      |
+|   Max Value   |      2       |       2          |    2     |     15      |        15      |      1       |
+|    Example    |      2       |       2          |    1     |      4      |        0       |        0        |
 
-**Message Type 10 - Alert Control Unit to Subsystem Error**
+**Message Type 14 - Alert Control Unit to Subsystem Error**
 
 |               |    Byte 1    |      Byte 2      |  Byte 3    |    Byte 4   |
 | :----------: | :----------: | :----------: | :----------: | :----------: |
@@ -95,7 +97,7 @@ Implement a message sender that
 |   Max Value   |      10      |       2          |   64       |      4      |
 |    Example    |      10      |       2          |    10      |      4      |
 
-**Message Type 13 - Alert Control to Subsystem Status**
+**Message Type 15 - Alert Control to Subsystem Status**
 
 |               |    Byte 1    |      Byte 2      |  Byte 3    |    Byte 4   |
 | :----------: | :----------: | :----------: | :----------:   | :----------: |

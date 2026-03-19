@@ -30,6 +30,7 @@ for<br>
 * ["Schematic"](https://jacobdirks.github.io/Dirks_EGR314_S26/05-Schematic/schematic/)
 * ["PCB"](https://jacobdirks.github.io/Dirks_EGR314_S26/06-PCB/pcb/)
 * ["BOM"](https://jacobdirks.github.io/Dirks_EGR314_S26/04-BOM/BOM/)
+* ["API"](https://jacobdirks.github.io/Dirks_EGR314_S26/07-API/api/)
 <!--
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
 
