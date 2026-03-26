@@ -1008,7 +1008,42 @@ Implement a message sender that
 | Message Num | Byte 1-2(uint16_t) | Byte 3 (uint8_t) | Byte 4 (uint8_t) | Byte 5 (uint8_t) | Byte 6 (uint8_t) | Byte 7 (uint8_t) | Byte 8 (uint8_t) | Message Reason |
 | 1 | 0x01 | Subsystem number | Motor number | Upper number | Lower number | String Space | String Space | Set Motor to a certain parameter |
 | 12 | 0x0C | Subsystem number | Upper number | Lower number | String Space | String Space | String Space | Get Subsystem status |
---><h2 id="messages-directed-to-the-motor-subsystem"><strong>Messages Directed To The Motor Subsystem</strong></h2>
+--><p>The only messages that will be directed to me are ones from the submarine's controller interface and are denotated by being sent through subsystem 2. However below each message chart I put a translated byte message.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Individual</th>
+<th style="text-align: center;">No.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Sam B</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">Adrian P</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">Andrew I</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">Jacob D</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sam M</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">Mo A</td>
+<td style="text-align: center;">6</td>
+</tr>
+</tbody>
+</table>
+<h2 id="messages-directed-to-the-motor-subsystem"><strong>Messages Directed To The Motor Subsystem</strong></h2>
 <p><strong>Message Type 1 -- Motor Speed Set Message</strong></p>
 <table>
 <thead>
@@ -1070,6 +1105,7 @@ Implement a message sender that
 </tr>
 </tbody>
 </table>
+<p>Example: 415A241414415942</p>
 <p><strong>Message Type 12 -- Request Subsystem Status</strong></p>
 <!-- Not sure what else should be here-->
 
@@ -1115,6 +1151,7 @@ Implement a message sender that
 </tr>
 </tbody>
 </table>
+<p>Example: 415A24C435942</p>
 <!--
  Messages I send
 | Message Num | Byte 1-2(uint16_t) | Byte 3 (uint8_t) | Byte 4 (uint8_t) | Byte 5 (uint8_t) | Byte 6 (uint8_t) | Byte 7 (uint8_t) | Byte 8 (uint8_t) | Message Reason |
@@ -1185,6 +1222,7 @@ Implement a message sender that
 </tr>
 </tbody>
 </table>
+<p>Example: 415A422214005942</p>
 <p><strong>Message Type 14 - Alert Control Unit to Subsystem Error</strong></p>
 <table>
 <thead>
@@ -1234,6 +1272,7 @@ Implement a message sender that
 </tr>
 </tbody>
 </table>
+<p>Example: 415A42A2A45942</p>
 <p><strong>Message Type 15 - Alert Control to Subsystem Status</strong></p>
 <table>
 <thead>
@@ -1283,6 +1322,8 @@ Implement a message sender that
 </tr>
 </tbody>
 </table>
+<!-- All codes will start with 0x415A and end with 0x5942-->
+<p>Example: 415A42D2455942</p>
 <p>All of this documentation can be found in this <a href="">"Project Code Zip File"</a> for your replication and viewing leisure.</p>
 
 
