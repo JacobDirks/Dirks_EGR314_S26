@@ -43,6 +43,17 @@ Implement a message sender that
 | 12 | 0x0C | Subsystem number | Upper number | Lower number | String Space | String Space | String Space | Get Subsystem status |
 -->
 
+The only messages that will be directed to me are ones from the submarine's controller interface and are denotated by being sent through subsystem 2. However below each message chart I put a translated byte message.
+
+|  Individual | No. | 
+| :------: | :------: |
+|  Sam B      |  1  |
+|  Adrian P   |  2  |
+|  Andrew I   |  3  |
+|  Jacob D    |  4  |
+|  Sam M      |  5  |
+|  Mo A       |  6  |
+
 ## **Messages Directed To The Motor Subsystem**
 
 **Message Type 1 -- Motor Speed Set Message**
@@ -55,6 +66,8 @@ Implement a message sender that
 |   Max Value   |      1       |       4          |    2     |    15       |        15      |            1 |
 |    Example    |      1       |       4          |    1     |    4        |        4       |            1 |
 
+Example: 415A241414415942
+
 **Message Type 12 -- Request Subsystem Status**
 
 <!-- Not sure what else should be here-->
@@ -66,6 +79,8 @@ Implement a message sender that
 |   Min Value   |      12       |       4          |  0     |
 |   Max Value   |      12       |       4          |  15    |
 |    Example    |      12       |       4          |  3     |
+
+Example: 415A24C435942
 
 <!--
  Messages I send
@@ -87,6 +102,8 @@ Implement a message sender that
 |   Max Value   |      2       |       2          |    2     |     15      |        15      |      1       |
 |    Example    |      2       |       2          |    1     |      4      |        0       |        0        |
 
+Example: 415A422214005942
+
 **Message Type 14 - Alert Control Unit to Subsystem Error**
 
 |               |    Byte 1    |      Byte 2      |  Byte 3    |    Byte 4   |
@@ -97,6 +114,8 @@ Implement a message sender that
 |   Max Value   |      10      |       2          |   64       |      4      |
 |    Example    |      10      |       2          |    10      |      4      |
 
+Example: 415A42A2A45942
+
 **Message Type 15 - Alert Control to Subsystem Status**
 
 |               |    Byte 1    |      Byte 2      |  Byte 3    |    Byte 4   |
@@ -106,5 +125,8 @@ Implement a message sender that
 |   Min Value   |      13      |       2          |      4     |       0     |
 |   Max Value   |      13      |       2          |      4     |      10     |
 |    Example    |      13      |       2          |      4     |       5     |
+
+<!-- All codes will start with 0x415A and end with 0x5942-->
+Example: 415A42D2455942
 
 All of this documentation can be found in this ["Project Code Zip File"]() for your replication and viewing leisure.
