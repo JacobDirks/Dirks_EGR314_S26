@@ -4,7 +4,7 @@ repo_url: https://github.com/JacobDirks/Dirks_EGR314_S26
 edit_uri: edit/main/docs/
 theme:
   name: material
-  custom_dir: custom_theme/
+  custom_dir: custom_theme/partials
   palette:
     primary: indigo
     accent: blue
