@@ -45,7 +45,7 @@ Implement a message sender that
 
 The only messages that will be directed to me are ones from the submarine's controller interface and are denotated by being sent through subsystem 2. However below each message chart I put a translated byte message.
 
-|  Individual | No. | 
+|  Individual | No. |
 | :------: | :------: |
 |  Sam B      |  1  |
 |  Adrian P   |  2  |
