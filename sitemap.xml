@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://jacobdirks.github.io/Dirks_EGR314_S26/08-Reflection/Reflection/</loc>
+         <lastmod>2026-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jacobdirks.github.io/Dirks_EGR314_S26/Appendix/</loc>
          <lastmod>2026-05-01</lastmod>
          <changefreq>daily</changefreq>
@@ -52,6 +57,16 @@
     </url>
     <url>
          <loc>https://jacobdirks.github.io/Dirks_EGR314_S26/Appendix/03-Power-Budget/Power-Budget/</loc>
+         <lastmod>2026-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jacobdirks.github.io/Dirks_EGR314_S26/Hardware%20V2.0/HardwareV2/</loc>
+         <lastmod>2026-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jacobdirks.github.io/Dirks_EGR314_S26/Resources/Resources/</loc>
          <lastmod>2026-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
