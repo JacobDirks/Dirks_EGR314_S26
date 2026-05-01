@@ -11,18 +11,18 @@ as part of<br>
 for<br>
 <font size= "5"> Team 308 </font><br>
 
-**Submission: March 01, 2025**
+**Submission: May 01, 2026**
 </center>
 
-## Introduction
+## **Introduction**
 
 * This datasheet is to help define the drive system for the Rugged Surveyor. This system is crucial to the submarine to be able to go underwater and gather data regarding environmental changes specifically through a photo-resistor for light sensing and a temperature sensor. The goal of the drive train is to allow the robot to travel: forward, reverse, and their diagonals as well as turn left or right. This will be accomplished through 3 DC motors and 2 RC servo motors. As for the goal of the overall project, we want to protect human lives and make the process of exploring new environments less dangerous.
 
-### Project Summary
+### **Project Summary**
 
 * This project is to create full robotic system that can work either as an attachment to a larger robot or as a standalone robot. In this case my team is working to build a submarine that will be able to gather temperature data and light levels in a given area. In order to access the full team's report please access this link: [linked team report.](https://egr314-s-2026-308.github.io/)
 
-### My Contribution
+### **My Contribution**
 
 * My subsystem is in charge of the drive system for the submarine and using SPI protocol for communication to parts as I use UART for inter controller communication.
 * ["Block Diagram"](https://jacobdirks.github.io/Dirks_EGR314_S26/02-Block-Diagram/Block-Diagram/)

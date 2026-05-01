@@ -229,3 +229,15 @@ SERVOMOTOR RC 3-6V W/ 3-PIN JST
 4326
 https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/694/4326_Web.pdf
 -->
+
+### **Finalized Selections**
+
+Note this is the same as the top just in a table format
+
+| Part Name | Link  |
+| :-------: | :---: |
+| Brushed DC Motor Standard 11605 RPM 5VDC | ["link"](https://www.digikey.com/en/products/detail/nmb-technologies-corporation/PAN14EE12AA1/2417070) |
+| IC HALF BRIDGE DRIVER 6A 12DSO | ["link"](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542) |
+| SERVOMOTOR RC 3-6V W/ 3-PIN JST image | ["link"](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4326/10419470) |
+| IC REG BUCK 3.3V 2A TSOT23-6 | ["link"](https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426) |
+| IC REG BUCK ADJ 2.5A 20HTSSOP | ["link"](https://www.digikey.com/en/products/detail/texas-instruments/LM5005MHX-NOPB/1871800)  |

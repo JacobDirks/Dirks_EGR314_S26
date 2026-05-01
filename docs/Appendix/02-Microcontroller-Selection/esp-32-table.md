@@ -34,7 +34,7 @@ title: Appendix - Controller Table for the ESP32
 
 ## **Team Responsibilities**
 
-For this project I am in charge of the drive train, This means that I will need to control 3 DC motors at the minimum and toggle their outputs based on the communication from a teammates board. 
+For this project I am in charge of the drive train, This means that I will need to control 3 DC motors at the minimum and toggle their outputs based on the communication from a teammates board.
 
 ## **Microcontroller Section**
 
