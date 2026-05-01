@@ -3,38 +3,6 @@ title: API
 ---
 
 <!--
-
-Handling Code
-You will next need to implement and expand the Message Protocol examples shared in class and available in the resources links above
-
-Your job will be to:
-
-Implement a message receiver that:
-    handles all messages sent in over the daisy chain UART network
-        passes on messages intended for someone else
-        processes messages intended for you.
-        trashes messages sent from yourself that have made it back to you
-        ignores messages larger than your buffer size
-    anticipates and handles mal-formed messages by ignoring them. For example:
-        ignores characters sent outside of a message frame
-    handles each message type intended for you
-        must provide a unique acknowledgement of the message and the data received, whenever a correctly-formatted message is received.
-        This does not have to connect to your final system functionality yet, but should be differentiable based on the message type and message data received
-
-Implement a message sender that
-    sends an example of each message type, properly formatted, with time-varying data (can be valid data or "dummy" data for now).
-        easily modifiable based on the instructor's request (see below)
-    ensures that data you send is properly formatted
-        contains proper prefix and suffix
-        is properly addressed by you, and properly addressed to someone on your team.
-        ensures that message data does not contain message prefix and suffix codes.
-        cannot send data that is longer than the specification.
-        any other other reasonable formatting mistakes are prevented.
-        prioritizes passing on messages received by you before sending your own messages.
-        ensures a maximum rate of sending messages determined by a specified variable, and implemented using programming best practices, such as interrupts, timers, and non-blocking code.
-
- -->
-<!--
  Messages intended for me to act on something
 
  Messages at me
@@ -43,7 +11,7 @@ Implement a message sender that
 | 12 | 0x0C | Subsystem number | Upper number | Lower number | String Space | String Space | String Space | Get Subsystem status |
 -->
 
-The only messages that will be directed to me are ones from the submarine's controller interface and are denotated by being sent through subsystem 2. However below each message chart I put a translated byte message.
+The only messages that will be directed to me are ones from the submarine's controller interface and are denoted by being sent through subsystem 2. However below each message chart I put a translated byte message. With that said each message will start with AZ + Sender Code + Desired Recipient Code before the message. After the body of the message is sent the end is always BY as a way to ensure that value acts as the clear and decisive end.
 
 |  Individual | No. |
 | :------: | :------: |
@@ -66,7 +34,7 @@ The only messages that will be directed to me are ones from the submarine's cont
 |   Max Value   |      1       |       4          |    2     |    15       |        15      |            1 |
 |    Example    |      1       |       4          |    1     |    4        |        4       |            1 |
 
-Example: 415A241414415942
+Example: AZ14141441
 
 **Message Type 12 -- Request Subsystem Status**
 
@@ -80,7 +48,7 @@ Example: 415A241414415942
 |   Max Value   |      12       |       4          |  15    |
 |    Example    |      12       |       4          |  3     |
 
-Example: 415A24C435942
+Example: AZ141243
 
 <!--
  Messages I send
@@ -102,7 +70,7 @@ Example: 415A24C435942
 |   Max Value   |      2       |       2          |    2     |     15      |        15      |      1       |
 |    Example    |      2       |       2          |    1     |      4      |        0       |        0        |
 
-Example: 415A422214005942
+Example: AZ41221400
 
 **Message Type 14 - Alert Control Unit to Subsystem Error**
 
@@ -114,7 +82,7 @@ Example: 415A422214005942
 |   Max Value   |      10      |       2          |   64       |      4      |
 |    Example    |      10      |       2          |    10      |      4      |
 
-Example: 415A42A2A45942
+Example: AZ41102104BY
 
 **Message Type 15 - Alert Control to Subsystem Status**
 
@@ -127,6 +95,6 @@ Example: 415A42A2A45942
 |    Example    |      13      |       2          |      4     |       5     |
 
 <!-- All codes will start with 0x415A and end with 0x5942-->
-Example: 415A42D2455942
+Example: AZ4113245BY
 
-All of this documentation can be found in this ["Project Code Zip File"]() for your replication and viewing leisure.
+All of this documentation can be found in this ["Project Code Zip File"](Dirks_subsystem.zip) for your replication and viewing leisure.
