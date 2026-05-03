@@ -31,6 +31,10 @@ for<br>
 * ["PCB"](https://jacobdirks.github.io/Dirks_EGR314_S26/06-PCB/pcb/)
 * ["BOM"](https://jacobdirks.github.io/Dirks_EGR314_S26/04-BOM/BOM/)
 * ["API"](https://jacobdirks.github.io/Dirks_EGR314_S26/07-API/api/)
+* ["Reflection"](https://jacobdirks.github.io/Dirks_EGR314_S26/08-Reflection/Reflection/)
+* ["Appendix"](https://jacobdirks.github.io/Dirks_EGR314_S26/Appendix/)
+  * ["Power Budget"]()
+  * ["Microcontroller Selection Process"]()
 <!--
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
 

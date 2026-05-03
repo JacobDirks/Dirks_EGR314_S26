@@ -1,13 +1,13 @@
-site_name: EGR 314 Jacob Dirks Data Sheet
-site_url: https://jacobdirks.github.io/Dirks_EGR314_S26
-repo_url: https://github.com/JacobDirks/Dirks_EGR314_S26
+site_name: EGR 314 Data Sheet Template
+site_url: https://embedded-systems-design.github.io/EGR314DataSheetTemplate
+repo_url: https://github.com/embedded-systems-design/EGR314DataSheetTemplate
 edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: custom_theme/partials
   palette:
-    primary: indigo
-    accent: blue
+    primary: blue
+    accent: indigo
   font:
     text: Roboto
   logo: static/logo314.svg
@@ -60,7 +60,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 Team 308"
+copyright: "Copyright &copy; 2026 team-name-here"
 
 extra:
   generator: false
@@ -74,16 +74,18 @@ nav:
   - Requirements: 01-Requirements/Requirements.md
   - Block Diagram: 02-Block-Diagram/Block-Diagram.md
   - Component Selection: 03-Component-Selection/Component-Selection.md
-  - Power Budget: 05-Power-Budget/Power-Budget.md
+  - Power Budget: 10-Power-Budget/Power-Budget.md
   - Schematic: 05-Schematic/schematic.md
   - BOM: 04-BOM/BOM.md
   - PCB: 06-PCB/pcb.md
-  - API: 07-API/api.md
-  - Reflection: 08-Reflection/Reflection.md
+  - API: 07-API/test2.md
+  - Module Verification: 08-Verification/testing.md
+  - Reflection: 09-Reflection/Reflection.md
   - Appendix: Appendix/index.md
-#      - A1 Component Selection: Component-Selection/Component-Selection-Process.md
-#      - A2 Microcontroller Selection: 02-Microcontroller-Selection/esp-32-table.md
-#      - Apen-1: Appendix/another-subfile.md
-#      - Apen-2: Appendix/charts.md
-#      - Apen-3: Appendix/esp-32-table.md
-#      - Apen-4: Appendix/basic-markdown-examples.md
+      #- A1 Component Selection: Component-Selection/Component-Selection-Process.md
+      #- A2a Microcontroller Selection: 02-Microcontroller-Selection/esp-32-table.md
+      #- A2b Microcontroller Selection: 02-Microcontroller-Selection/pic-table.md
+      #- A3 Component Selection: Component-Selection/Component-Selection-Process.md
+      #- A4a Examples to Remove: 04-Examples-to-Remove/another-subfile.md
+      #- A4b Examples to Remove: 04-Examples-to-Remove/charts.md
+      #- A4c Examples to Remove: 04-Examples-to-Remove/basic-markdown-examples.md
