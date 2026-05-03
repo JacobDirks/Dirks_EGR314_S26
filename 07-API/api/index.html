@@ -72,7 +72,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -368,7 +368,7 @@
   
     
   
-  Hardware Version2
+  Hardware V2
 
       </a>
     </li>
@@ -710,7 +710,7 @@
         
   
   <span class="md-ellipsis">
-    Hardware Version2
+    Hardware V2
   </span>
   
 
@@ -836,14 +836,7 @@
 
   <h1>API</h1>
 
-<!--
- Messages intended for me to act on something
-
- Messages at me
-| Message Num | Byte 1-2(uint16_t) | Byte 3 (uint8_t) | Byte 4 (uint8_t) | Byte 5 (uint8_t) | Byte 6 (uint8_t) | Byte 7 (uint8_t) | Byte 8 (uint8_t) | Message Reason |
-| 1 | 0x01 | Subsystem number | Motor number | Upper number | Lower number | String Space | String Space | Set Motor to a certain parameter |
-| 12 | 0x0C | Subsystem number | Upper number | Lower number | String Space | String Space | String Space | Get Subsystem status |
---><p>The only messages that will be directed to me are ones from the submarine's controller interface and are denoted by being sent through subsystem 2. However below each message chart I put a translated byte message. With that said each message will start with AZ + Sender Code + Desired Recipient Code before the message. After the body of the message is sent the end is always BY as a way to ensure that value acts as the clear and decisive end.</p>
+<p>The only messages that will be directed to me are ones from the submarine's controller interface and are denoted by being sent through subsystem 2. However below each message chart I put a translated byte message. With that said each message will start with AZ + Sender Code + Desired Recipient Code before the message. After the body of the message is sent the end is always BY as a way to ensure that value acts as the clear and decisive end.</p>
 <table>
 <thead>
 <tr>
