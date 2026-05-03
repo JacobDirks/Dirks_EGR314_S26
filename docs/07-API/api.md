@@ -2,19 +2,10 @@
 title: API
 ---
 
-<!--
- Messages intended for me to act on something
-
- Messages at me
-| Message Num | Byte 1-2(uint16_t) | Byte 3 (uint8_t) | Byte 4 (uint8_t) | Byte 5 (uint8_t) | Byte 6 (uint8_t) | Byte 7 (uint8_t) | Byte 8 (uint8_t) | Message Reason |
-| 1 | 0x01 | Subsystem number | Motor number | Upper number | Lower number | String Space | String Space | Set Motor to a certain parameter |
-| 12 | 0x0C | Subsystem number | Upper number | Lower number | String Space | String Space | String Space | Get Subsystem status |
--->
-
 The only messages that will be directed to me are ones from the submarine's controller interface and are denoted by being sent through subsystem 2. However below each message chart I put a translated byte message. With that said each message will start with AZ + Sender Code + Desired Recipient Code before the message. After the body of the message is sent the end is always BY as a way to ensure that value acts as the clear and decisive end.
 
 |  Individual | No. |
-| :------: | :------: |
+| :---:       | :-: |
 |  Sam B      |  1  |
 |  Adrian P   |  2  |
 |  Andrew I   |  3  |
@@ -27,7 +18,7 @@ The only messages that will be directed to me are ones from the submarine's cont
 **Message Type 1 -- Motor Speed Set Message**
 
 |               |    Byte 1    |      Byte 2      |  Byte 3  |    Byte 4   |     Byte 5     |   Byte 6     |
-|  :----------: | :----------: |   :----------:   | :----------: | :----------: | :----------: | :----------: |
+|  :----------: | :----------: |   :----------:   | :----------:           | :----------:   | :----------: | :----------: |
 | Variable Name | message_type | subsystem_Number | motor_Id | Upper motor_Speed |  Lower Motor Speed | motor_Direction|
 | Variable Type |    uint8_t   |     uint8_t      |  uint8_t |   int8_t    |     int8_t     |       int8_t |
 |   Min Value   |      1       |       4          |    1     |     0       |        0       |            0 |
@@ -41,7 +32,7 @@ Example: AZ14141441
 <!-- Not sure what else should be here-->
 
 |   Column name |     Byte 1    |      Byte 2      | Byte 3 |
-| :----------: | :----------: | :----------: | :----------: |
+| :----------:  | :----------:  | :----------:     | :----------: |
 | Variable Name |  message_type | subsystem_Number |  code  |
 | Variable Type |     uint8_t   |     uint8_t      | uint8_t |
 |   Min Value   |      12       |       4          |  0     |

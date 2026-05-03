@@ -11,7 +11,7 @@ as part of<br>
 for<br>
 <font size= "5"> Team 308 </font><br>
 
-**Submission: May 01, 2026**
+**Submission: May 04, 2026**
 </center>
 
 ## **Introduction**
@@ -27,16 +27,13 @@ for<br>
 * My subsystem is in charge of the drive system for the submarine and using SPI protocol for communication to parts as I use UART for inter controller communication.
 * ["Block Diagram"](https://jacobdirks.github.io/Dirks_EGR314_S26/02-Block-Diagram/Block-Diagram/)
 * ["Component Selection"](https://jacobdirks.github.io/Dirks_EGR314_S26/03-Component-Selection/Component-Selection/)
+* ["Power Budget"](https://jacobdirks.github.io/Dirks_EGR314_S26/10-Power-Budget/Power-Budget/)
 * ["Schematic"](https://jacobdirks.github.io/Dirks_EGR314_S26/05-Schematic/schematic/)
 * ["PCB"](https://jacobdirks.github.io/Dirks_EGR314_S26/06-PCB/pcb/)
 * ["BOM"](https://jacobdirks.github.io/Dirks_EGR314_S26/04-BOM/BOM/)
 * ["API"](https://jacobdirks.github.io/Dirks_EGR314_S26/07-API/api/)
 * ["Reflection"](https://jacobdirks.github.io/Dirks_EGR314_S26/08-Reflection/Reflection/)
+* ["Hardware Version 2"](https://jacobdirks.github.io/Dirks_EGR314_S26/Hardware%20V2.0/HardwareV2/)
 * ["Appendix"](https://jacobdirks.github.io/Dirks_EGR314_S26/Appendix/)
-  * ["Power Budget"]()
-  * ["Microcontroller Selection Process"]()
-<!--
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
+  * ["Microcontroller Selection Process"](https://jacobdirks.github.io/Dirks_EGR314_S26/Appendix/02-Microcontroller-Selection/esp-32-table/)
 
->Continue for all the remaining/missing sections.
- -->

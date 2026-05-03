@@ -6,8 +6,8 @@ theme:
   name: material
   custom_dir: custom_theme/partials
   palette:
-    primary: blue
-    accent: indigo
+    primary: indigo
+    accent: blue
   font:
     text: Roboto
   logo: static/logo314.svg
@@ -81,7 +81,7 @@ nav:
   - API: 07-API/api.md
  # - Module Verification: 08-Verification/testing.md
   - Reflection: 08-Reflection/Reflection.md
-  - Hardware Version2: "Hardware V2.0/HardwareV2.md"
+  - Hardware V2: "Hardware V2.0/HardwareV2.md"
   - Appendix: #testing nest
       - index: Appendix/index.md
       - A1 Microcontroller Selection: Appendix/02-Microcontroller-Selection/esp-32-table.md

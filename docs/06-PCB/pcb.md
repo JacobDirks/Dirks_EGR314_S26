@@ -11,7 +11,7 @@ This pcb is designed to not only match the schematic but also support the team's
 
 ## **Resources**
 
-The schematic as a PDF download is available [*here*](DirksPCB.pdf), and the Zip folder of the project [*here*](Projects.zip) and the [*Gerber files*](Dirks_Gerbers.zip).
+The schematic is available [*as a pdf here*](DirksPCB.pdf), and the Zip folder of the [*project here*](Projects.zip) and the [*Gerber files*](Dirks_Gerbers.zip).
 
 ## **FinalImages**
 

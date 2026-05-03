@@ -11,4 +11,4 @@ This schematic is design to support the shared power system required by the team
 
 ## **Resources**
 
-The schematic as a PDF download is available [*here*](JdirksSchematic.pdf), and the Zip folder of the project [*here*](Projects.zip).
+The schematic is available [*as a pdf here*](JdirksSchematic.pdf), and the Zip folder of the [*project here*](Projects.zip).
