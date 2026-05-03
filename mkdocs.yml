@@ -84,7 +84,7 @@ nav:
   - Hardware Version2: "Hardware V2.0/HardwareV2.md"
   - Appendix: #testing nest
       - index: Appendix/index.md
-      - A1 Microcontroller Selection: Appendix/02-Microcontroller-Selection.md
+      - A1 Microcontroller Selection: Appendix/02-Microcontroller-Selection/esp-32-table.md
       #- A1 Component Selection: Component-Selection/Component-Selection-Process.md
       #- A2a Microcontroller Selection: 02-Microcontroller-Selection/esp-32-table.md
       #- A2b Microcontroller Selection: 02-Microcontroller-Selection/pic-table.md
