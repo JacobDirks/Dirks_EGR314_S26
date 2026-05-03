@@ -1,6 +1,6 @@
-site_name: EGR 314 Data Sheet Template
-site_url: https://embedded-systems-design.github.io/EGR314DataSheetTemplate
-repo_url: https://github.com/embedded-systems-design/EGR314DataSheetTemplate
+site_name: Jacob Dirks EGR 314 Data Sheet
+site_url: https://jacobdirks.github.io/Dirks_EGR314_S26/
+repo_url: https://github.com/JacobDirks/Dirks_EGR314_S26
 edit_uri: edit/main/docs/
 theme:
   name: material
@@ -60,14 +60,14 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 team-name-here"
+copyright: "Copyright &copy; 2026 EGR314 Team 308"
 
 extra:
   generator: false
   social:
     - icon: fontawesome/regular/file-code
       link: /2026_spring
-      name: 2023 Site    
+      name: 2026 Site    
 
 nav:
   - Home: index.md
@@ -81,7 +81,9 @@ nav:
   - API: 07-API/test2.md
   - Module Verification: 08-Verification/testing.md
   - Reflection: 09-Reflection/Reflection.md
-  - Appendix: Appendix/index.md
+  - Appendix: #testing nest
+      - index: Appendix/index.md
+      - A1 Microcontroller Selection: Appendix/02-Microcontroller-Selection.md
       #- A1 Component Selection: Component-Selection/Component-Selection-Process.md
       #- A2a Microcontroller Selection: 02-Microcontroller-Selection/esp-32-table.md
       #- A2b Microcontroller Selection: 02-Microcontroller-Selection/pic-table.md
