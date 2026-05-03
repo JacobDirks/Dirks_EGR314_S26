@@ -78,9 +78,10 @@ nav:
   - Schematic: 05-Schematic/schematic.md
   - BOM: 04-BOM/BOM.md
   - PCB: 06-PCB/pcb.md
-  - API: 07-API/test2.md
-  - Module Verification: 08-Verification/testing.md
-  - Reflection: 09-Reflection/Reflection.md
+  - API: 07-API/api.md
+ # - Module Verification: 08-Verification/testing.md
+  - Reflection: 08-Reflection/Reflection.md
+  - Hardware Version2: "Hardware V2.0/HardwareV2.md"
   - Appendix: #testing nest
       - index: Appendix/index.md
       - A1 Microcontroller Selection: Appendix/02-Microcontroller-Selection.md
